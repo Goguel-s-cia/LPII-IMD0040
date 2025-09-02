@@ -1,3 +1,5 @@
+package primeiraUnd.Atividades_02;
+
 import java.util.Scanner;
 
 public class Main

@@ -1,3 +1,5 @@
+package primeiraUnd.Atividades_03.Questao_02;
+
 class Conta{
 
     private Double saldo;

@@ -1,4 +1,4 @@
-package primeiraUnd;
+package primeiraUnd.Atividades_04;
 
 public class Main {
 
