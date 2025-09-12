@@ -1,0 +1,10 @@
+*.log
+tmp/
+
+*.class
+
+/bin/
+
+.classpath
+.project
+.settings/
