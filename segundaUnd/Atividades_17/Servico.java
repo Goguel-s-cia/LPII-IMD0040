@@ -1,8 +1,10 @@
 package segundaUnd.Atividades_17;
 
-public class Servico {
+public class Servico implements Id{
+	@Obrigatorio
 	private int id;
 	private String descricao;
+	@Obrigatorio
 	private double preco;
 	
 	public Servico(int id, String descricao, double preco) {
@@ -12,6 +14,7 @@ public class Servico {
 		this.preco = preco;
 	}
 	
+	@Override
 	public int getId() {
 		return id;
 	}

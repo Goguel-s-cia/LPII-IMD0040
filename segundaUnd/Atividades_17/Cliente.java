@@ -1,7 +1,9 @@
 package segundaUnd.Atividades_17;
 
-public class Cliente {
+public class Cliente implements Id{
+	@Obrigatorio
 	private int id;
+	@Obrigatorio
 	private String nome;
 	private String telefone;
 	
@@ -13,6 +15,7 @@ public class Cliente {
 		this.telefone = telefone;
 	}
 	
+	@Override
 	public int getId() {
 		return id;
 	}

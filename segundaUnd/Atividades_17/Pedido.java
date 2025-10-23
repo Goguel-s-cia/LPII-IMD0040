@@ -1,9 +1,10 @@
 package segundaUnd.Atividades_17;
 
-public class Pedido {
+public class Pedido implements Id{
 	
 	@Obrigatorio
 	private int id;
+	@Obrigatorio
 	private String clienteNome;
 	private String sevicoDescricao;
 	private String status;
@@ -16,6 +17,7 @@ public class Pedido {
 		this.status = status;
 	}
 	
+	@Override
 	public int getId() {
 		return id;
 	}
